@@ -1,0 +1,66 @@
+# Stux.Design Status: https://status.stux.design
+# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# https://github.com/StuxGroup/GitHup
+site:
+  name: Stux.Design Status
+  description: Live status of Stux.Design's sites, checked every 5 minutes. Designed with purpose.
+  logo: https://global.media.stux.design/logo.png
+  favicon: https://global.media.stux.design/icon.png
+  accent: "#e71081"
+  url: https://status.stux.design/
+  footer_links:
+    - label: Stux.Design Services
+      url: https://services.stux.design/
+    - label: Report a problem
+      url: https://github.com/StuxDesign/Status/issues/new
+
+legal:
+  operator: Stux.Design
+  company: "Stux.Design is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE."
+  contact: legal@stux.design
+  host: GitHub Pages
+  effective: 8 October 2026
+
+defaults:
+  timeout: 15
+  retries: 2
+  max_response_time: 15000  # ms; GitHup's default. Slower (but otherwise good) answers show as degraded
+
+# Monitors are grouped into sections on the page, each with a combined status.
+# Slugs come from the names, so moving a monitor between groups keeps its history.
+# Only sites that serve today are monitored. The Services site and the page templates
+# (soonpage, maintenancepage, servicepage) don't serve yet, so they're listed as plain links
+# under "On the drawing board": move each into the Stux.Design group as a monitor once it's live.
+groups:
+  - name: Stux.Design
+    description: The Stux.Design studio's own website.
+    monitors:
+      - name: Stux.Design Website
+        url: https://stux.design/
+
+  - name: Shared
+    description: The media every Stux.Design site relies on.
+    monitors:
+      - name: Stux.Design Media CDN
+        url: https://global.media.stux.design/icon.png
+        description: Shared logos and images used across every Stux.Design site
+
+  - name: On the drawing board
+    description: Sites that are drawn but not live yet, so they aren't checked.
+    collapsed: true
+    links:
+      - name: Stux.Design Services
+        url: https://services.stux.design/
+        description: Every Stux.Design service, in one place
+      - name: Soonpage
+        url: https://soonpage.stux.design/
+        description: The coming-soon page template
+      - name: Maintenancepage
+        url: https://maintenancepage.stux.design/
+        description: The maintenance page template
+      - name: Servicepage
+        url: https://servicepage.stux.design/
+        description: The placeholder for services not set up yet
+
+incidents:
+  labels: [status]
