@@ -16,6 +16,14 @@
 Updated by GitHup whenever the status page is rebuilt (hourly, and when a status changes).
 
 <!-- githup:start -->
+<!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
+
+**No data yet** · [Live status page](https://status.stux.design/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+| Stux.Design | [Stux.Design Website](https://stux.design/) | No data | n/a | n/a | n/a | n/a |
+| Shared | [Stux.Design Media CDN](https://global.media.stux.design/icon.png) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
