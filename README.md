@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.design/logo.png" height="100" alt="Stux.Design Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/logo-dark.png"><img src="https://global.media.stux.design/logo-dark.png" height="100" alt="Stux.Design Logo"></picture>
 </p>
 
 # Status
@@ -88,4 +88,4 @@ redistribution, see [LICENSE](LICENSE).
 
 *Designed with purpose. | Part of the Stux.Group Brand of Companies.*
 
-*Built & Maintained by <img src="https://global.media.stux.design/icon.png" height="14" alt="Stux.Design" valign="middle"> [Stux.Design](https://github.com/StuxDesign), powered by [GitHup](https://githup.stux.group).*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/icon-dark.png"><img src="https://global.media.stux.design/icon-dark.png" height="14" alt="Stux.Design" valign="middle"></picture> [Stux.Design](https://github.com/StuxDesign), powered by [GitHup](https://githup.stux.group).*
