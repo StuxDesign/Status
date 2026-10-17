@@ -1,49 +1,45 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1792241929,
+ "updated": 1792244504,
  "name": "Stux.Design Status",
- "status": "partial",
+ "status": "up",
  "monitors": [
   {
    "slug": "stux-design-website",
    "name": "Stux.Design Website",
    "url": "https://stux.design/",
-   "status": "down",
-   "code": 403,
-   "ms": 248,
-   "checked_at": 1792241924,
+   "status": "up",
+   "code": 200,
+   "ms": 429,
+   "checked_at": 1792244504,
    "last_change": {
-    "at": 1792241023,
-    "from": "up",
-    "to": "down"
+    "at": 1792244504,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 91.666,
-    "7d": 98.507,
-    "30d": 98.769,
-    "90d": 98.769,
-    "all": 98.769
+    "24h": 91.836,
+    "7d": 98.513,
+    "30d": 98.773,
+    "90d": 98.773,
+    "all": 98.773
    },
    "avg_ms": {
     "24h": 429,
-    "7d": 531,
-    "30d": 527,
-    "90d": 527,
-    "all": 527
+    "7d": 530,
+    "30d": 526,
+    "90d": 526,
+    "all": 526
    },
    "totals": {
-    "checks": 325,
-    "available": 321,
-    "ms_sum": 169091,
-    "ms_n": 321,
+    "checks": 326,
+    "available": 322,
+    "ms_sum": 169520,
+    "ms_n": 322,
     "first": 1791482198
    },
-   "incident": {
-    "number": 1,
-    "url": "https://github.com/StuxDesign/Status/issues/1",
-    "opened": 1792241023
-   }
+   "incident": null
   },
   {
    "slug": "stux-design-media-cdn",
@@ -51,8 +47,8 @@
    "url": "https://global.media.stux.design/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 58,
-   "checked_at": 1792241924,
+   "ms": 288,
+   "checked_at": 1792244504,
    "last_change": {
     "at": 1791482198,
     "from": null,
@@ -68,15 +64,15 @@
    "avg_ms": {
     "24h": 294,
     "7d": 355,
-    "30d": 368,
-    "90d": 368,
-    "all": 368
+    "30d": 367,
+    "90d": 367,
+    "all": 367
    },
    "totals": {
-    "checks": 325,
-    "available": 325,
-    "ms_sum": 119466,
-    "ms_n": 325,
+    "checks": 326,
+    "available": 326,
+    "ms_sum": 119754,
+    "ms_n": 326,
     "first": 1791482198
    },
    "incident": null
