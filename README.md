@@ -22,8 +22,8 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Design | [Stux.Design Website](https://stux.design/) | Up | 100.00% | 98.73% | 99.12% | 386 ms |
-| Shared | [Stux.Design Media CDN](https://global.media.stux.design/icon.png) | Up | 100.00% | 100.00% | 100.00% | 229 ms |
+| Stux.Design | [Stux.Design Website](https://stux.design/) | Up | 100.00% | 98.74% | 99.13% | 402 ms |
+| Shared | [Stux.Design Media CDN](https://global.media.stux.design/icon.png) | Up | 100.00% | 100.00% | 100.00% | 195 ms |
 <!-- githup:end -->
 
 ## What's monitored
