@@ -1,49 +1,45 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1793401583,
+ "updated": 1793401879,
  "name": "Stux.Design Status",
- "status": "partial",
+ "status": "up",
  "monitors": [
   {
    "slug": "stux-design-website",
    "name": "Stux.Design Website",
    "url": "https://stux.design/",
-   "status": "down",
-   "code": 521,
-   "ms": 98,
-   "checked_at": 1793401578,
+   "status": "up",
+   "code": 200,
+   "ms": 510,
+   "checked_at": 1793401878,
    "last_change": {
-    "at": 1793401578,
-    "from": "up",
-    "to": "down"
+    "at": 1793401878,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 97.222,
+    "24h": 97.297,
     "7d": 99.626,
     "30d": 99.435,
     "90d": 99.435,
     "all": 99.435
    },
    "avg_ms": {
-    "24h": 639,
-    "7d": 561,
+    "24h": 636,
+    "7d": 562,
     "30d": 552,
     "90d": 552,
     "all": 552
    },
    "totals": {
-    "checks": 885,
-    "available": 880,
-    "ms_sum": 485723,
-    "ms_n": 880,
+    "checks": 886,
+    "available": 881,
+    "ms_sum": 486233,
+    "ms_n": 881,
     "first": 1791482198
    },
-   "incident": {
-    "number": 2,
-    "url": "https://github.com/StuxDesign/Status/issues/2",
-    "opened": 1793401578
-   }
+   "incident": null
   },
   {
    "slug": "stux-design-media-cdn",
@@ -51,8 +47,8 @@
    "url": "https://global.media.stux.design/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 211,
-   "checked_at": 1793401578,
+   "ms": 153,
+   "checked_at": 1793401878,
    "last_change": {
     "at": 1791482198,
     "from": null,
@@ -66,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 254,
+    "24h": 251,
     "7d": 242,
     "30d": 290,
     "90d": 290,
     "all": 290
    },
    "totals": {
-    "checks": 885,
-    "available": 885,
-    "ms_sum": 256368,
-    "ms_n": 885,
+    "checks": 886,
+    "available": 886,
+    "ms_sum": 256521,
+    "ms_n": 886,
     "first": 1791482198
    },
    "incident": null
