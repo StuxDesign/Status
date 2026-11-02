@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1793652251,
+ "updated": 1793652552,
  "name": "Stux.Design Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 510,
-   "checked_at": 1793652251,
+   "ms": 649,
+   "checked_at": 1793652551,
    "last_change": {
     "at": 1793401878,
     "from": "down",
@@ -20,23 +20,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.559,
+    "7d": 99.561,
     "30d": 99.488,
     "90d": 99.488,
     "all": 99.488
    },
    "avg_ms": {
-    "24h": 487,
+    "24h": 493,
     "7d": 532,
     "30d": 536,
     "90d": 536,
     "all": 536
    },
    "totals": {
-    "checks": 977,
-    "available": 972,
-    "ms_sum": 520817,
-    "ms_n": 972,
+    "checks": 978,
+    "available": 973,
+    "ms_sum": 521466,
+    "ms_n": 973,
     "first": 1791482198
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://global.media.stux.design/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 464,
-   "checked_at": 1793652251,
+   "ms": 254,
+   "checked_at": 1793652551,
    "last_change": {
     "at": 1791482198,
     "from": null,
@@ -69,10 +69,10 @@
     "all": 283
    },
    "totals": {
-    "checks": 977,
-    "available": 977,
-    "ms_sum": 276901,
-    "ms_n": 977,
+    "checks": 978,
+    "available": 978,
+    "ms_sum": 277155,
+    "ms_n": 978,
     "first": 1791482198
    },
    "incident": null
