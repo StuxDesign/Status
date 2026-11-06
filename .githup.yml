@@ -4,8 +4,9 @@
 site:
   name: Stux.Design Status
   description: Live status of Stux.Design's sites, checked every 5 minutes. Designed with purpose.
-  logo: https://global.media.stux.design/logo.png
-  favicon: https://global.media.stux.design/icon.png
+  # Its own badge icon (the Stux.Design mark with a heartbeat badge), as on services.stux.design.
+  logo: https://services.stux.design/assets/img/services/stux-design-status.png
+  favicon: https://services.stux.design/assets/img/services/stux-design-status.png
   accent: "#e71081"
   url: https://status.stux.design/
   footer_links:
@@ -52,13 +53,13 @@ groups:
       - name: Stux.Design Services
         url: https://services.stux.design/
         description: Every Stux.Design service, in one place
-      - name: Soonpage
+      - name: Stux.Design Soonpage
         url: https://soonpage.stux.design/
         description: The coming-soon page template
-      - name: Maintenancepage
+      - name: Stux.Design Maintenancepage
         url: https://maintenancepage.stux.design/
         description: The maintenance page template
-      - name: Servicepage
+      - name: Stux.Design Servicepage
         url: https://servicepage.stux.design/
         description: The placeholder for services not set up yet
 

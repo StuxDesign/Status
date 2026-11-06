@@ -1,8 +1,8 @@
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/logo-dark.png"><img src="https://global.media.stux.design/logo-dark.png" height="100" alt="Stux.Design Logo"></picture>
+  <img src="https://services.stux.design/assets/img/services/stux-design-status.png" height="100" alt="Stux.Design Status icon">
 </p>
 
-# Status
+# Stux.Design Status
 
 ### *Live status of Stux.Design's sites, powered by [GitHup](https://githup.stux.group).*
 

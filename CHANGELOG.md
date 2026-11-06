@@ -3,6 +3,15 @@
 All notable changes to Stux.Design Status (status.stux.design) are documented here. This
 project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06
+
+### Changed
+
+- The page's logo and favicon are now its own badge icon (the Stux.Design mark with a heartbeat badge), as on
+  services.stux.design, rather than the plain Stux.Design logo. The README's header too, now titled Stux.Design Status.
+- The templates under "On the drawing board" use their full names: Stux.Design Soonpage, Maintenancepage and
+  Servicepage.
+
 ## v26.10.23
 
 ### Added
