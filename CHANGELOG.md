@@ -3,6 +3,23 @@
 All notable changes to Stux.Design Status (status.stux.design) are documented here. This
 project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06-1
+
+### Added
+
+- Monitors for **Stux.Design Services** (in the Stux.Design group) and a new **Templates** group monitoring
+  **Stux.Design Soonpage**, **Maintenancepage** and **Servicepage**. All four serve now, so they replace the
+  unchecked "On the drawing board" links.
+
+### Changed
+
+- `README.md` and `CONTRIBUTING.md` brought up to date: what's monitored, the full name Stux.Design Status, and where
+  the badge-icon logo comes from.
+
+### Removed
+
+- The "On the drawing board" group, whose sites are all live and monitored now.
+
 ## v26.11.06
 
 ### Changed

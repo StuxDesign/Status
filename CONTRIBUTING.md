@@ -2,9 +2,9 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/logo-dark.png"><img src="https://global.media.stux.design/logo-dark.png" height="80" alt="Stux.Design Logo"></picture>
 </p>
 
-# Contributing to Status
+# Contributing to Stux.Design Status
 
-Status is Stux.Design's status page, [status.stux.design](https://status.stux.design), built with
+Stux.Design Status is Stux.Design's status page, [status.stux.design](https://status.stux.design), built with
 [GitHup](https://githup.stux.group). To report an outage, open an Issue. Bugs or ideas for the
 status page software belong in [StuxGroup/GitHup](https://github.com/StuxGroup/GitHup/issues).
 
@@ -22,7 +22,8 @@ You need Python 3.11+ and nothing else.
   [GitHup docs](https://githup.stux.group/docs/). Only add sites Stux.Design runs.
 - **The status page itself is GitHup's**, including the legal pages and 404. Change how it
   looks or works in GitHup, not here.
-- **Brand.** The Stux.Design accent is `#e71081`, set as `site.accent`.
+- **Brand.** The Stux.Design accent is `#e71081`, set as `site.accent`. The logo and favicon are the Stux.Design
+  Status badge icon, served from services.stux.design (built by `scripts/badge-icons.py` in `StuxDesign/Services`).
 - **Legal pages.** The `legal:` block in `.githup.yml` drives **Boring Legal Stuff** at `/legal/`.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.

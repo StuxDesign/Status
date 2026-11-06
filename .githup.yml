@@ -29,15 +29,17 @@ defaults:
 
 # Monitors are grouped into sections on the page, each with a combined status.
 # Slugs come from the names, so moving a monitor between groups keeps its history.
-# Only sites that serve today are monitored. The Services site and the page templates
-# (soonpage, maintenancepage, servicepage) don't serve yet, so they're listed as plain links
-# under "On the drawing board": move each into the Stux.Design group as a monitor once it's live.
+# Only sites that serve are monitored. A site that's drawn but not live yet can go in a group as
+# a plain link (`links:`) until it serves, then become a monitor.
 groups:
   - name: Stux.Design
-    description: The Stux.Design studio's own website.
+    description: The Stux.Design studio's own sites.
     monitors:
       - name: Stux.Design Website
         url: https://stux.design/
+      - name: Stux.Design Services
+        url: https://services.stux.design/
+        description: Every Stux.Design service, in one place
 
   - name: Shared
     description: The media every Stux.Design site relies on.
@@ -46,13 +48,9 @@ groups:
         url: https://global.media.stux.design/icon.png
         description: Shared logos and images used across every Stux.Design site
 
-  - name: On the drawing board
-    description: Sites that are drawn but not live yet, so they aren't checked.
-    collapsed: true
-    links:
-      - name: Stux.Design Services
-        url: https://services.stux.design/
-        description: Every Stux.Design service, in one place
+  - name: Templates
+    description: The page templates Stux.Design's sites fall back on.
+    monitors:
       - name: Stux.Design Soonpage
         url: https://soonpage.stux.design/
         description: The coming-soon page template

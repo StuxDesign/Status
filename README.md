@@ -30,11 +30,9 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
 
-- **Stux.Design:** the Stux.Design website
+- **Stux.Design:** the Stux.Design website and Stux.Design Services
 - **Shared:** the Stux.Design media CDN
-- **On the drawing board:** Stux.Design Services, soonpage, maintenancepage and servicepage are
-  listed as plain links, not checked, because they don't serve yet. Move each into the
-  Stux.Design group as a monitor once it's live
+- **Templates:** Stux.Design Soonpage, Maintenancepage and Servicepage
 
 To add a site, add a monitor to the right group there (or a new group). A group can also hold `links:` instead of monitors, for sites that should be listed but not checked.
 
