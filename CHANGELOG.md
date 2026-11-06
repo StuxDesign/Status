@@ -3,6 +3,16 @@
 All notable changes to Stux.Design Status (status.stux.design) are documented here. This
 project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.06-2
+
+### Added
+
+- `.github/workflows/ci.yml`, which runs `bash tests/version.sh` on pushes to `main` and `test` and on pull requests into `main`, so the pull request from `test` has a check to pass.
+
+### Changed
+
+- README (Versioning) and CONTRIBUTING (a new Branches section) say work happens on `test`, reaches `main` only through a pull request that needs CI to pass and is reviewed and merged by Leo, and that releases are committed and tagged on `test`. The commit scripts' push hint says `test`.
+
 ## v26.11.06-1
 
 ### Added
