@@ -13,8 +13,11 @@ status page software belong in [StuxGroup/GitHup](https://github.com/StuxGroup/G
 You need Python 3.11+ and nothing else.
 
 ```bash
-./dev-server.sh [--no-dev-mode] [port]   # or dev-server.bat on Windows
+./dev-server.sh [--no-dev-mode] [--lan] [port]   # or dev-server.bat on Windows
 ```
+
+`--lan` listens on all interfaces instead of 127.0.0.1 only, so a phone or tablet on the same
+network can open it, and prints the addresses to use.
 
 ## Project conventions
 
