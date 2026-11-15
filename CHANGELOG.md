@@ -3,6 +3,14 @@
 All notable changes to Stux.Design Status (status.stux.design) are documented here. This
 project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v26.11.15-2
+
+### Changed
+
+- The comment on the 5-minute schedule in `.github/workflows/status.yml` says what really happens: it asks GitHub for a
+  check every 5 minutes, best-effort, and GitHub often runs it less often (the status page measures about one check
+  every 45 minutes). It used to say GitHub "may run it a little late". The schedule itself is unchanged.
+
 ## v26.11.15-1
 
 ### Added
