@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1795059252,
+ "updated": 1795075233,
  "name": "Stux.Design Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 313,
-   "checked_at": 1795059251,
+   "ms": 259,
+   "checked_at": 1795075233,
    "last_change": {
     "at": 1793401878,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.897,
-    "90d": 99.65,
-    "all": 99.65
+    "30d": 99.896,
+    "90d": 99.651,
+    "all": 99.651
    },
    "avg_ms": {
-    "24h": 439,
+    "24h": 387,
     "7d": 563,
     "30d": 515,
     "90d": 522,
     "all": 522
    },
    "totals": {
-    "checks": 1432,
-    "available": 1427,
-    "ms_sum": 745060,
-    "ms_n": 1427,
+    "checks": 1433,
+    "available": 1428,
+    "ms_sum": 745319,
+    "ms_n": 1428,
     "first": 1791482198
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://services.stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 538,
-   "checked_at": 1795059251,
+   "ms": 215,
+   "checked_at": 1795075233,
    "last_change": {
     "at": 1794000471,
     "from": null,
@@ -62,17 +62,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 193,
+    "24h": 196,
     "7d": 166,
     "30d": 182,
     "90d": 182,
     "all": 182
    },
    "totals": {
-    "checks": 343,
-    "available": 343,
-    "ms_sum": 62486,
-    "ms_n": 343,
+    "checks": 344,
+    "available": 344,
+    "ms_sum": 62701,
+    "ms_n": 344,
     "first": 1794000471
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://global.media.stux.design/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 597,
-   "checked_at": 1795059251,
+   "ms": 370,
+   "checked_at": 1795075233,
    "last_change": {
     "at": 1791482198,
     "from": null,
@@ -98,17 +98,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 235,
-    "7d": 237,
-    "30d": 241,
+    "24h": 240,
+    "7d": 238,
+    "30d": 242,
     "90d": 271,
     "all": 271
    },
    "totals": {
-    "checks": 1432,
-    "available": 1432,
-    "ms_sum": 388316,
-    "ms_n": 1432,
+    "checks": 1433,
+    "available": 1433,
+    "ms_sum": 388686,
+    "ms_n": 1433,
     "first": 1791482198
    },
    "incident": null
@@ -119,80 +119,8 @@
    "url": "https://soonpage.stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 204,
-   "checked_at": 1795059251,
-   "last_change": {
-    "at": 1794000471,
-    "from": null,
-    "to": "up"
-   },
-   "uptime": {
-    "24h": 100.0,
-    "7d": 100.0,
-    "30d": 100.0,
-    "90d": 100.0,
-    "all": 100.0
-   },
-   "avg_ms": {
-    "24h": 198,
-    "7d": 167,
-    "30d": 177,
-    "90d": 177,
-    "all": 177
-   },
-   "totals": {
-    "checks": 343,
-    "available": 343,
-    "ms_sum": 60774,
-    "ms_n": 343,
-    "first": 1794000471
-   },
-   "incident": null
-  },
-  {
-   "slug": "stux-design-maintenancepage",
-   "name": "Stux.Design Maintenancepage",
-   "url": "https://maintenancepage.stux.design/",
-   "status": "up",
-   "code": 200,
-   "ms": 228,
-   "checked_at": 1795059251,
-   "last_change": {
-    "at": 1794000471,
-    "from": null,
-    "to": "up"
-   },
-   "uptime": {
-    "24h": 100.0,
-    "7d": 100.0,
-    "30d": 100.0,
-    "90d": 100.0,
-    "all": 100.0
-   },
-   "avg_ms": {
-    "24h": 164,
-    "7d": 177,
-    "30d": 183,
-    "90d": 183,
-    "all": 183
-   },
-   "totals": {
-    "checks": 343,
-    "available": 343,
-    "ms_sum": 62713,
-    "ms_n": 343,
-    "first": 1794000471
-   },
-   "incident": null
-  },
-  {
-   "slug": "stux-design-servicepage",
-   "name": "Stux.Design Servicepage",
-   "url": "https://servicepage.stux.design/",
-   "status": "up",
-   "code": 200,
-   "ms": 207,
-   "checked_at": 1795059251,
+   "ms": 212,
+   "checked_at": 1795075233,
    "last_change": {
     "at": 1794000471,
     "from": null,
@@ -207,16 +135,88 @@
    },
    "avg_ms": {
     "24h": 193,
+    "7d": 168,
+    "30d": 177,
+    "90d": 177,
+    "all": 177
+   },
+   "totals": {
+    "checks": 344,
+    "available": 344,
+    "ms_sum": 60986,
+    "ms_n": 344,
+    "first": 1794000471
+   },
+   "incident": null
+  },
+  {
+   "slug": "stux-design-maintenancepage",
+   "name": "Stux.Design Maintenancepage",
+   "url": "https://maintenancepage.stux.design/",
+   "status": "up",
+   "code": 200,
+   "ms": 213,
+   "checked_at": 1795075233,
+   "last_change": {
+    "at": 1794000471,
+    "from": null,
+    "to": "up"
+   },
+   "uptime": {
+    "24h": 100.0,
+    "7d": 100.0,
+    "30d": 100.0,
+    "90d": 100.0,
+    "all": 100.0
+   },
+   "avg_ms": {
+    "24h": 168,
+    "7d": 177,
+    "30d": 183,
+    "90d": 183,
+    "all": 183
+   },
+   "totals": {
+    "checks": 344,
+    "available": 344,
+    "ms_sum": 62926,
+    "ms_n": 344,
+    "first": 1794000471
+   },
+   "incident": null
+  },
+  {
+   "slug": "stux-design-servicepage",
+   "name": "Stux.Design Servicepage",
+   "url": "https://servicepage.stux.design/",
+   "status": "up",
+   "code": 200,
+   "ms": 226,
+   "checked_at": 1795075233,
+   "last_change": {
+    "at": 1794000471,
+    "from": null,
+    "to": "up"
+   },
+   "uptime": {
+    "24h": 100.0,
+    "7d": 100.0,
+    "30d": 100.0,
+    "90d": 100.0,
+    "all": 100.0
+   },
+   "avg_ms": {
+    "24h": 199,
     "7d": 164,
     "30d": 182,
     "90d": 182,
     "all": 182
    },
    "totals": {
-    "checks": 343,
-    "available": 343,
-    "ms_sum": 62427,
-    "ms_n": 343,
+    "checks": 344,
+    "available": 344,
+    "ms_sum": 62653,
+    "ms_n": 344,
     "first": 1794000471
    },
    "incident": null
@@ -224,7 +224,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 28,
-  "every": 3112
+  "checks": 25,
+  "every": 3300
  }
 }
