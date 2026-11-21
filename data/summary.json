@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1795224751,
+ "updated": 1795225050,
  "name": "Stux.Design Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 159,
-   "checked_at": 1795224750,
+   "ms": 167,
+   "checked_at": 1795225050,
    "last_change": {
     "at": 1793401878,
     "from": "down",
@@ -26,17 +26,17 @@
     "all": 99.661
    },
    "avg_ms": {
-    "24h": 464,
-    "7d": 528,
+    "24h": 453,
+    "7d": 526,
     "30d": 504,
     "90d": 519,
     "all": 519
    },
    "totals": {
-    "checks": 1478,
-    "available": 1473,
-    "ms_sum": 764773,
-    "ms_n": 1473,
+    "checks": 1479,
+    "available": 1474,
+    "ms_sum": 764940,
+    "ms_n": 1474,
     "first": 1791482198
    },
    "incident": null
@@ -47,8 +47,80 @@
    "url": "https://services.stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 39,
-   "checked_at": 1795224750,
+   "ms": 50,
+   "checked_at": 1795225050,
+   "last_change": {
+    "at": 1794000471,
+    "from": null,
+    "to": "up"
+   },
+   "uptime": {
+    "24h": 100.0,
+    "7d": 100.0,
+    "30d": 100.0,
+    "90d": 100.0,
+    "all": 100.0
+   },
+   "avg_ms": {
+    "24h": 139,
+    "7d": 161,
+    "30d": 177,
+    "90d": 177,
+    "all": 177
+   },
+   "totals": {
+    "checks": 390,
+    "available": 390,
+    "ms_sum": 69137,
+    "ms_n": 390,
+    "first": 1794000471
+   },
+   "incident": null
+  },
+  {
+   "slug": "stux-design-media-cdn",
+   "name": "Stux.Design Media CDN",
+   "url": "https://global.media.stux.design/icon.png",
+   "status": "up",
+   "code": 200,
+   "ms": 90,
+   "checked_at": 1795225050,
+   "last_change": {
+    "at": 1791482198,
+    "from": null,
+    "to": "up"
+   },
+   "uptime": {
+    "24h": 100.0,
+    "7d": 100.0,
+    "30d": 100.0,
+    "90d": 100.0,
+    "all": 100.0
+   },
+   "avg_ms": {
+    "24h": 195,
+    "7d": 224,
+    "30d": 237,
+    "90d": 269,
+    "all": 269
+   },
+   "totals": {
+    "checks": 1479,
+    "available": 1479,
+    "ms_sum": 397913,
+    "ms_n": 1479,
+    "first": 1791482198
+   },
+   "incident": null
+  },
+  {
+   "slug": "stux-design-soonpage",
+   "name": "Stux.Design Soonpage",
+   "url": "https://soonpage.stux.design/",
+   "status": "up",
+   "code": 200,
+   "ms": 58,
+   "checked_at": 1795225050,
    "last_change": {
     "at": 1794000471,
     "from": null,
@@ -63,88 +135,16 @@
    },
    "avg_ms": {
     "24h": 142,
-    "7d": 162,
-    "30d": 178,
-    "90d": 178,
-    "all": 178
-   },
-   "totals": {
-    "checks": 389,
-    "available": 389,
-    "ms_sum": 69087,
-    "ms_n": 389,
-    "first": 1794000471
-   },
-   "incident": null
-  },
-  {
-   "slug": "stux-design-media-cdn",
-   "name": "Stux.Design Media CDN",
-   "url": "https://global.media.stux.design/icon.png",
-   "status": "up",
-   "code": 200,
-   "ms": 126,
-   "checked_at": 1795224750,
-   "last_change": {
-    "at": 1791482198,
-    "from": null,
-    "to": "up"
-   },
-   "uptime": {
-    "24h": 100.0,
-    "7d": 100.0,
-    "30d": 100.0,
-    "90d": 100.0,
-    "all": 100.0
-   },
-   "avg_ms": {
-    "24h": 199,
-    "7d": 224,
-    "30d": 237,
-    "90d": 269,
-    "all": 269
-   },
-   "totals": {
-    "checks": 1478,
-    "available": 1478,
-    "ms_sum": 397823,
-    "ms_n": 1478,
-    "first": 1791482198
-   },
-   "incident": null
-  },
-  {
-   "slug": "stux-design-soonpage",
-   "name": "Stux.Design Soonpage",
-   "url": "https://soonpage.stux.design/",
-   "status": "up",
-   "code": 200,
-   "ms": 122,
-   "checked_at": 1795224750,
-   "last_change": {
-    "at": 1794000471,
-    "from": null,
-    "to": "up"
-   },
-   "uptime": {
-    "24h": 100.0,
-    "7d": 100.0,
-    "30d": 100.0,
-    "90d": 100.0,
-    "all": 100.0
-   },
-   "avg_ms": {
-    "24h": 146,
-    "7d": 159,
+    "7d": 158,
     "30d": 173,
     "90d": 173,
     "all": 173
    },
    "totals": {
-    "checks": 389,
-    "available": 389,
-    "ms_sum": 67415,
-    "ms_n": 389,
+    "checks": 390,
+    "available": 390,
+    "ms_sum": 67473,
+    "ms_n": 390,
     "first": 1794000471
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://maintenancepage.stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 27,
-   "checked_at": 1795224750,
+   "ms": 50,
+   "checked_at": 1795225050,
    "last_change": {
     "at": 1794000471,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 140,
+    "24h": 136,
     "7d": 158,
-    "30d": 178,
-    "90d": 178,
-    "all": 178
+    "30d": 177,
+    "90d": 177,
+    "all": 177
    },
    "totals": {
-    "checks": 389,
-    "available": 389,
-    "ms_sum": 69048,
-    "ms_n": 389,
+    "checks": 390,
+    "available": 390,
+    "ms_sum": 69098,
+    "ms_n": 390,
     "first": 1794000471
    },
    "incident": null
@@ -191,8 +191,8 @@
    "url": "https://servicepage.stux.design/",
    "status": "up",
    "code": 200,
-   "ms": 342,
-   "checked_at": 1795224750,
+   "ms": 78,
+   "checked_at": 1795225050,
    "last_change": {
     "at": 1794000471,
     "from": null,
@@ -206,17 +206,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 146,
+    "24h": 143,
     "7d": 158,
     "30d": 178,
     "90d": 178,
     "all": 178
    },
    "totals": {
-    "checks": 389,
-    "available": 389,
-    "ms_sum": 69245,
-    "ms_n": 389,
+    "checks": 390,
+    "available": 390,
+    "ms_sum": 69323,
+    "ms_n": 390,
     "first": 1794000471
    },
    "incident": null
@@ -224,7 +224,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 26,
-  "every": 3232
+  "checks": 27,
+  "every": 3120
  }
 }
