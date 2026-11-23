@@ -22,12 +22,12 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Stux.Design | [Stux.Design Website](https://stux.design/) | Up | 100.00% | 100.00% | 99.89% | 317 ms |
-| Stux.Design | [Stux.Design Services](https://services.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 169 ms |
-| Shared | [Stux.Design Media CDN](https://global.media.stux.design/icon.png) | Up | 100.00% | 100.00% | 100.00% | 191 ms |
-| Templates | [Stux.Design Soonpage](https://soonpage.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 161 ms |
-| Templates | [Stux.Design Maintenancepage](https://maintenancepage.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 116 ms |
-| Templates | [Stux.Design Servicepage](https://servicepage.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 174 ms |
+| Stux.Design | [Stux.Design Website](https://stux.design/) | Up | 100.00% | 100.00% | 99.88% | 378 ms |
+| Stux.Design | [Stux.Design Services](https://services.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 186 ms |
+| Shared | [Stux.Design Media CDN](https://global.media.stux.design/icon.png) | Up | 100.00% | 100.00% | 100.00% | 212 ms |
+| Templates | [Stux.Design Soonpage](https://soonpage.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 185 ms |
+| Templates | [Stux.Design Maintenancepage](https://maintenancepage.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 151 ms |
+| Templates | [Stux.Design Servicepage](https://servicepage.stux.design/) | Up | 100.00% | 100.00% | 100.00% | 188 ms |
 <!-- githup:end -->
 
 ## What's monitored
